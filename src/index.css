@@ -1,0 +1,464 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar-container{
+  display: flex;
+  background-color: rgb(80, 36, 1);
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.logo{
+  color: white;
+/* background-color: red; */
+border-radius: 8px;
+padding: 6px;
+font-size: 30px;
+box-shadow: 2px 4px 2px rgb(36, 14, 1);
+cursor: pointer;
+border-top: 1px solid white;
+}
+
+.menus{
+  display: flex;
+  gap: 2rem;
+  margin-left: auto;
+}
+li{
+  list-style: none;
+}
+
+.menus a{
+  text-decoration: none;
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.menus a:hover{
+  background-color: white;
+  color: rgb(80, 36, 1);
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.fa-solid{
+  color: white;
+  font-size: 40px;
+  display: none;
+}
+/* the ending of navbar section */
+
+/* beginning of home section */
+.home{
+  background: linear-gradient(#b46e05e7, rgba(32, 9, 2, 0.753)), url("https://i.pinimg.com/736x/ed/73/5e/ed735e803f3ea1f54f0bc5427d81ad39.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.home-inside{
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.home-inside h2{
+  font-size: 40px;
+  color: white;
+  margin-top: 3rem;
+}
+
+.home-inside p{
+  margin-top: 1.9rem;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.home-btns{
+  margin-top: 4rem;
+}
+
+.btn-home-one{
+/* background-color: red; */
+border: 2px solid white;
+text-decoration: none;
+padding: 0.9rem 0.5rem;
+border-radius: 0.6rem;
+margin-right: 10px;
+}
+
+.btn-home-one:hover{
+  background-color: rgb(199, 122, 8);
+  /* font-weight: bold; */
+}
+
+.btn-home-one a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.btn-home-two{
+background-color: rgb(73, 28, 2);
+/* border: 2px solid white; */
+text-decoration: none;
+padding: 0.9rem 0.5rem;
+border-radius: 0.4rem;
+margin-left: 10px;
+}
+
+.btn-home-two a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btn-home-two:hover{
+ border: 2px solid white;
+  /* font-weight: bold; */
+  background: none;
+}
+
+
+/* service section */
+.service{
+  background-color: rgba(105, 49, 2, 0.952);
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-inside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.service h3{
+  color: white;
+  font-size: 30px;
+}
+
+.service-box{
+  margin-top: 1.4rem;
+  width: 350px;
+  height: 200px;
+  padding: 1rem;
+   border-radius: 2rem;
+   box-shadow: 0px 0px 3px rgb(138, 113, 113);
+   background-color: rgb(70, 29, 2);
+   border-top: 1px solid whitesmoke;
+}
+
+.service-box:hover{
+  transition: 0.5s ease;
+  transform: scale(1.02);
+}
+
+.service-box h4{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+.service-box p{
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 18px;
+}
+
+.service-box button{
+  margin-top: 1.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+}
+
+/* process section */
+.process{
+  width: 100%;
+  background-color: rgba(136, 96, 44, 0.938);
+  height: 80vh;
+ padding: 2rem 4rem;
+
+}
+
+.process-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.process h5{
+color: white;
+font-size: 30px;
+text-align: center;
+padding-top: 1rem;
+
+}
+
+.process-box{
+  margin-top: 2rem;
+  position: relative;
+  /* background: linear-gradient(rgba(108, 69, 197, 0.56), rgba(90, 18, 206, 0.5)); */
+ 
+}
+
+.process-box:hover{
+  transition: 0.5s ease;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.box-side{
+  position: absolute;
+  /* border: 2px solid red; */
+  inset: 0;
+width: 250px;
+height: auto;
+top: 175px;
+border-radius: 1.8rem;
+padding: 1rem;
+text-align: center;
+box-shadow: 1px 1px 2px rgb(15, 13, 13);
+background-color: rgba(85, 77, 1, 0.445);
+
+}
+
+.box-side h6{
+  font-size: 20px;
+  color: white;
+  margin-top: 4px;
+}
+
+.box-side button{
+  margin-top: 18px;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.box-side button:hover{
+  border: 2px solid white;
+ background: none;
+ color: gold;
+ font-weight: bold;
+}
+
+.process-box img{
+  width: 300px;
+  border-radius: 1.8rem;
+}
+
+
+/* process-two part section */
+.process-two{
+  background-color: rgb(139, 69, 3);
+  padding: 2rem 4rem;
+}
+
+.process-two h4{
+font-size: 20px;
+color: white;
+text-align: center;
+}
+
+.process-two-box{
+  width: 350px;
+  /* border: 2px solid red; */
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 4px rgb(167, 151, 151);
+  background-color: rgb(94, 54, 2);
+  height: 180px;
+}
+
+.process-two-box:hover{
+    transform: scale(1.02);
+  transition: 0.5s ease;
+}
+
+
+.process-two-box span{
+  font-size: 22px;
+  color: gold;
+  font-weight: bold;
+}
+
+.process-two-box p{
+  font-size: 22px;
+  margin-top: 25px;
+  color: white;
+}
+
+/* process-two section */
+.process-two-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+
+/* process-form */
+.process-parent{
+  margin-top: 4rem;
+ justify-items: center;
+}
+
+
+.process-form p{
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.contact-form div{
+ margin-top: 1rem;
+ display: block;
+ justify-items: center;
+}
+
+input{
+  padding: 0.8rem 6rem;
+  border-radius: 20px;
+  background: none;
+  border: 1px solid white;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+
+.input{
+  margin-top: 12px;
+}
+
+textarea{
+  background: none;
+  border-radius: 15px;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  /* text-align: center;
+  align-items: center; */
+  align-content: center;
+}
+
+.form-container button{
+  padding: 0.8rem 11rem;
+  border-radius: 1rem;
+  background: none;
+ border: none;
+ background-color: gold;
+ color: white;
+ font-size: 18px;
+ margin-top: 8px;
+}
+
+div p{
+  color: rgb(34, 236, 16);
+  font-size: 18px;
+}
+/* this ismedia query */
+@media (max-width:900px) {
+  .menus{
+    flex-direction: column;
+    position: absolute;
+    gap: 5px;
+    top: 76px;
+  background-color: rgb(80, 36, 1);
+  width: 100%;
+  right: 0;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 8px;
+  display: none;
+  }
+
+  .fa-solid{
+    display: flex;
+  }
+
+  .active{
+    display: flex;
+  }
+
+  .service-inside{
+flex-direction: column;
+gap: 0.5rem;
+}
+
+/* home section */
+.btn-home-one{
+padding: 0.6rem 0.2rem;
+font-size: 14px;
+}
+
+.btn-home-two{
+padding: 0.6rem 0.1rem;
+
+}
+
+/* coopeate section */
+.process-boxes{
+  flex-direction: column;
+gap: 4px;
+justify-content: center;
+align-items: center;
+
+}
+
+.process{
+  height: 180vh;
+}
+
+/* process-two section */
+.process-two-container{
+  flex-direction: column;
+}
+.process{
+  height: auto;
+}
+/* form section */
+.process-parent p{
+  font-size: 16px;
+}
+input{
+  padding: 0.8rem 3rem;
+}
+
+textarea{
+  width: 300px;
+}
+
+.form-container button{
+  padding: 0.5rem 8rem;
+}
+
+
+
+}
