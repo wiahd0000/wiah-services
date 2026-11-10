@@ -464,7 +464,7 @@ textarea{
 @media (max-width: 600px) {
 
   .home-inside h2{
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .btn-home-one{
@@ -478,16 +478,16 @@ textarea{
   }
 
   .service h3{
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .service-box{
   margin-top: 1.4rem;
-  width: 250px;
+  width: 300px;
   height: auto;
 }
 .service-box h4{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .process-two h4{
@@ -500,7 +500,7 @@ textarea{
 }
 
 input{
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 3rem;
   font-size: 16px;
 }
 }

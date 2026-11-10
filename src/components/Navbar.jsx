@@ -74,7 +74,7 @@ function Navbar() {
        <div className="home-btns">
         <span className='btn-home-one'><a href="https://wiah.netlify.app/" target='blank'>View Portfolia</a></span>
 
-       <span className='btn-home-two'><a href="https://wa.me/message/NOAHTKSB5PMRF1" target='blank'>Book Consultation</a></span>
+       <span className='btn-home-two'><a href="https://wa.me/message/NOAHTKSB5PMRF1" target='blank'>Consultation</a></span>
        </div>
     </div>
 
