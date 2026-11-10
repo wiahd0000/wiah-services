@@ -458,7 +458,49 @@ textarea{
 .form-container button{
   padding: 0.5rem 8rem;
 }
+}
 
+/* next media query */
+@media (max-width: 600px) {
 
+  .home-inside h2{
+    font-size: 26px;
+  }
 
+  .btn-home-one{
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+  
+    .btn-home-two{
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  .service h3{
+    font-size: 20px;
+  }
+
+  .service-box{
+  margin-top: 1.4rem;
+  width: 250px;
+  height: auto;
+}
+.service-box h4{
+  font-size: 18px;
+}
+
+.process-two h4{
+  font-size: 16px;
+}
+
+.process-two-box{
+  width: 300px;
+  height: auto;
+}
+
+input{
+  padding: 0.5rem 4rem;
+  font-size: 16px;
+}
 }
