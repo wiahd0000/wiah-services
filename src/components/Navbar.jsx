@@ -191,7 +191,7 @@ function Navbar() {
   {errors.name && <p>{errors.name.message}</p>}
 </div>
 <div className="textarea">
-  <textarea name="name" id="text" rows={10} cols={55} placeholder='Enter your message' {...register("text", {required: "text is Required!"})}></textarea>
+  <textarea name="name" id="text" rows={10} cols={50} placeholder='Enter your message' {...register("text", {required: "text is Required!"})}></textarea>
   {errors.text && <p>{errors.text.message}</p>}
 </div>
 <button type='submit'>Submit</button>
