@@ -336,6 +336,8 @@ gap: 2rem;
   box-shadow: 2px 3px 15px rgb(22, 20, 20);
   padding: 2rem 4rem;
   border-radius: 2rem;
+  width: 100%;
+  justify-content: center;
 
 }
 
@@ -519,7 +521,11 @@ align-items: center;
 }
 
 .process-parent{
-  width: 280px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
 }
 /* form section */
 .process-parent p{
