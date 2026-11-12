@@ -72,9 +72,13 @@ function Navbar() {
        <p>Professional Workspace transformation & event curtion</p>
 
        <div className="home-btns">
-        <span className='btn-home-one'><a href="https://wiah.netlify.app/" target='blank'>View Portfolia</a></span>
+       <div className='btn-home-one'>
+         <span ><a href="https://wiah.netlify.app/" target='blank'>View Portfolia</a></span>
+       </div>
 
-       <span className='btn-home-two'><a href="https://wa.me/message/NOAHTKSB5PMRF1" target='blank'>Consultation</a></span>
+    <div className='btn-home-two'>
+         <span ><a href="https://wa.me/message/NOAHTKSB5PMRF1" target='blank'>Consultation</a></span>
+    </div>
        </div>
     </div>
 
@@ -196,9 +200,36 @@ function Navbar() {
      </div>
      {/* process-form ending */}
     </div>
+
+    {/* footer starting */}
+    <footer className='footer'>
+      <h5>contact-us</h5>
+<div className='footer-container'>
+  <div className="footer-box">
+  <h6>Contact</h6>
+  <p>We are committed to delivering quality services, innovative solutions, and exceptional experiences. Our goal is to create value, build trust, and make a lasting impact through excellence and innovation.</p>
+</div>
+
+<div className="footer-box">
+  <h6>Quick Links</h6>
+  <p>Web Development IT Consulting</p>
+  <p>Graphic Design</p>
+  <p>
+ Digital Solutions Technical Support</p>
+</div>
+
+<div className="footer-box">
+  <h6>Contact Information</h6>
+  <p>Location: Monrovia, Liberia</p>
+<p>Phone: +231 555 - 340 - 996</p>
+<p>emaill: thomasdwiah95@maio.com</p>
+</div>
+</div>
+<p>© 2026 Your Company. All Rights Reserved.</p>
+    </footer>
    </div>
     </>
   )
-}
+};
 
 export default Navbar;

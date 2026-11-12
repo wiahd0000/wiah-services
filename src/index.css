@@ -87,6 +87,12 @@ li{
 
 .home-btns{
   margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  
 }
 
 .btn-home-one{
@@ -95,7 +101,7 @@ border: 2px solid white;
 text-decoration: none;
 padding: 0.9rem 0.5rem;
 border-radius: 0.6rem;
-margin-right: 10px;
+/* margin-right: 10px; */
 }
 
 .btn-home-one:hover{
@@ -116,7 +122,7 @@ background-color: rgb(73, 28, 2);
 text-decoration: none;
 padding: 0.9rem 0.5rem;
 border-radius: 0.4rem;
-margin-left: 10px;
+/* margin-left: 10px; */
 }
 
 .btn-home-two a{
@@ -326,6 +332,11 @@ gap: 2rem;
 .process-parent{
   margin-top: 4rem;
  justify-items: center;
+ align-items: center;
+  box-shadow: 2px 3px 15px rgb(22, 20, 20);
+  padding: 2rem;
+  border-radius: 2rem;
+
 }
 
 
@@ -383,6 +394,61 @@ div p{
   color: rgb(34, 236, 16);
   font-size: 18px;
 }
+
+/* footer section */
+.footer{
+width: 100%;
+  height: auto;
+   background-color: rgb(80, 36, 1);
+    padding: 2rem;  
+}
+
+.footer h5{
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 2px solid rgb(145, 122, 122);
+}
+
+.footer-container{
+    justify-content: center;
+   gap: 2rem 4rem;
+   display: flex;
+   margin-top: 2rem;
+}
+
+.footer-container h6{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+footer p{
+  color: white;
+  margin-top: 2rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-container p{
+  color: white;
+  font-size: 16px;
+}
+
+.footer-box{
+  background-color: rgb(155, 61, 7);
+  box-shadow: 2px 3px 4px black;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 350px;
+  height: auto;
+  text-align: center;
+}
+
+.footer-box:hover{
+  transform: scale(1.04);
+}
 /* this ismedia query */
 @media (max-width:900px) {
   .menus{
@@ -413,13 +479,21 @@ gap: 0.5rem;
 }
 
 /* home section */
+
+.home-btns{
+display: block;
+text-align: center;
+justify-items: center;
+}
 .btn-home-one{
-padding: 0.6rem 0.2rem;
+padding: 0.8rem 0.2rem;
 font-size: 14px;
 }
 
 .btn-home-two{
-padding: 0.6rem 0.1rem;
+padding: 0.8rem 0.6rem;
+margin-top: 0.8rem;
+
 
 }
 
@@ -458,6 +532,13 @@ textarea{
 .form-container button{
   padding: 0.5rem 8rem;
 }
+
+/* footer */
+.footer-container{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 }
 
 /* next media query */
@@ -467,15 +548,7 @@ textarea{
     font-size: 18px;
   }
 
-  .btn-home-one{
-    font-size: 12px;
-    padding: 0.5rem;
-  }
-  
-    .btn-home-two{
-    font-size: 12px;
-    padding: 0.5rem;
-  }
+ 
 
   .service h3{
     font-size: 14px;
