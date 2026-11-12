@@ -414,7 +414,7 @@ width: 100%;
 
 .footer-container{
     justify-content: center;
-   gap: 2rem 4rem;
+   gap: 2rem;
    display: flex;
    margin-top: 2rem;
 }
@@ -515,6 +515,8 @@ align-items: center;
 /* process-two section */
 .process-two-container{
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .process{
   height: auto;
@@ -522,10 +524,10 @@ align-items: center;
 
 .process-parent{
   width: 300px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   align-content: center;
-  justify-items: center;
+  /* justify-items: center; */
 }
 /* form section */
 .process-parent p{
@@ -576,6 +578,13 @@ textarea{
 }
 .service-box h4{
   font-size: 16px;
+}
+
+.process-parent{
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  justify-self: center;
 }
 
 .process-two h4{
